@@ -1,0 +1,75 @@
+body{
+     background-color:black;
+     color: white;
+}
+.heading{
+    text-align: center;
+    color: white;
+
+}
+input[type="text"],input[type="number"],input[type="Password"]{
+    width: 50%;
+    padding: 1%;
+    box-shadow: 1px 2px 3px gray;
+    border: none;
+    margin-left:25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+
+}
+
+
+label{
+    color: whitesmoke;
+}
+.main{
+    display: flex;
+}
+h4{
+   margin-left: 25%;
+   line-height: 0;
+}
+p{
+    margin-left: 25%;
+    padding-top: 1px;
+
+}
+.first p{
+    color: grey;
+    font-weight: lighter;
+    font-style: oblique;
+}
+.two{
+    margin-left: 25%;
+}
+button{
+    border: none;
+    margin-left: 25%;
+    width: 70%;
+    color:black;
+    text-align: center;
+    font-size: 15px;
+    background-color: gray;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px grey;
+    padding: 1%;
+
+}
+h3{
+    margin-left: 25%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ .first{
+    margin-top: 100px;
+    margin-left: 20%;
+}
+button:hover{
+    background-color: skyblue;
+}
+input[type="text"],input[type="number"],input[type="Password"]:hover{
+    border: 2px solid cadetblue;
+}
